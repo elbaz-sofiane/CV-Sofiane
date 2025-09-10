@@ -42,13 +42,22 @@ footer{margin-top:12px;text-align:center;color:var(--muted);font-size:13px}
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  padding: 0 20px; 
+  box-sizing: border-box;
   z-index: 9999;
+  text-align: center;
 }
 
 #typewriter {
   border-right: 2px solid black;
-  padding-right: 5px;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 2rem;
+  max-width: 100%;  
+  word-wrap: break-word;
+}
+@media (max-width: 400px) {
+  #typewriter {
+    font-size: 1.5rem;
+  }
 }
