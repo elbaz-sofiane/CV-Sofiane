@@ -42,7 +42,7 @@ footer{margin-top:12px;text-align:center;color:var(--muted);font-size:13px}
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px; 
+  padding: 0 20px; /* ajoute un padding pour éviter que le texte touche les bords */
   box-sizing: border-box;
   z-index: 9999;
   text-align: center;
@@ -53,8 +53,8 @@ footer{margin-top:12px;text-align:center;color:var(--muted);font-size:13px}
   white-space: nowrap;
   overflow: hidden;
   font-size: 2rem;
-  max-width: 100%;  
-  word-wrap: break-word;
+  max-width: 100%;   /* s'assure que le texte ne dépasse pas l'écran */
+  word-wrap: break-word; /* permet de passer à la ligne si besoin */
 }
 @media (max-width: 400px) {
   #typewriter {
