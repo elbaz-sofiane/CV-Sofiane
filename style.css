@@ -50,7 +50,6 @@ footer{margin-top:12px;text-align:center;color:var(--muted);font-size:13px}
 
 #typewriter {
   border-right: 2px solid black;
-  white-space: nowrap;
   overflow: hidden;
   font-size: 2rem;
   max-width: 100%;   /* s'assure que le texte ne dépasse pas l'écran */
@@ -61,3 +60,4 @@ footer{margin-top:12px;text-align:center;color:var(--muted);font-size:13px}
     font-size: 1.5rem;
   }
 }
+
