@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sofiane ELBAZ — CV</title>
-  <!-- Styles externes -->
+  <meta name="description" content="CV en ligne de Sofiane ELBAZ, étudiant en recherche d'alternance pour BTS SIO." />
+>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,14 +26,19 @@
     </header>
 
     <main class="grid">
-      <!-- Colonne principale -->
+      <!-- Colonne milieu -->
       <div>
         <section id="apropos" class="card">
           <h3>À propos de moi</h3>
           <p>
-            Actuellement à la recherche d'une alternance pour effectuer un BTS SIO. Passionné par le développement, le réseau et la cybersécurité, j'apprends vite et j'aime travailler sur des projets concrets.
+            Actuellement à la recherche d'une alternance pour effectuer un BTS SIO.
+            <span id="more-text" style="display:none;"></span>
+            <a href="#" id="toggle-link" style="color:#0b74da; cursor:pointer; text-decoration:none;">
+              En savoir plus
+            </a>
           </p>
         </section>
+
 
         <section id="experiences" class="card">
           <h3>Expériences</h3>
@@ -40,51 +46,49 @@
             <div class="job">
               <strong>Technicien informatique — IZK Conseils</strong>
               <div class="meta">06/2025 − 08/2025</div>
-              <p>Montage d'equipement informatique, installation de postes, maintenance, dépanage et support utilisateur, </p>
+              <p>Montage d'équipements informatiques, installation de postes, maintenance, dépannage et support utilisateur.</p>
             </div>
 
             <div class="job">
               <strong>Chauffeur livreur VL — Burddy</strong>
               <div class="meta">05/2025 − Actuellement</div>
-              <p>Livraisons/ récupération, chargement d'une camionnette, relation client et gestion des colis, gestion du temps, organisation de tournée, préparation de commande .</p>
+              <p>Livraisons/récupération, chargement d'une camionnette, relation client et gestion des colis, gestion du temps, organisation de tournées, préparation de commandes.</p>
             </div>
 
             <div class="job">
               <strong>Employé polyvalent — QUOTA</strong>
               <div class="meta">10/2024 − 05/2025</div>
-              <p>Prise de commande (Télephone/Prensentiel), Livraison, Cuisine, Plonge, Service en salle</p>
+              <p>Prise de commandes (téléphone/présentiel), livraison, cuisine, plonge, service en salle</p>
             </div>
           </div>
         </section>
 
-                <section id="Formations" class="card">
+        <section id="Formations" class="card">
           <h3>Formations</h3>
           <div class="exp">
             <div class="job">
               <strong>BTS SIO</strong>
-              <div class="meta">2025/2027 - Courbevoie (Envisagée)</div>
+              <div class="meta">2025/2027 - Courbevoie (Envisagé)</div>
             </div>
             </div>
             <div class="job">
-              <strong>BTS CIEL, Electronique et réseau</strong>
-              <div class="meta">2024/2025 - Argenteuil 95 (1ere année uniquement)</div>
+              <strong>BTS CIEL, Électronique et réseaux</strong>
+              <div class="meta">2024/2025 - Argenteuil 95 (1re année uniquement)</div>
             </div>
             <div class="job">
-              <strong>BAC STMG, Gestion Finances</strong>
-              <div class="meta">06/2024 - Colombes 92 (Favorable)</div>
+              <strong>BAC STMG, Gestion-Finances</strong>
+              <div class="meta">06/2024 - Colombes 92 (Obtenu)</div>
             </div>
-
-
         </section>
 
         <section id="objectif" class="card">
           <h3>Objectifs</h3>
           <p><strong>Court terme :</strong> Trouver une alternance afin de réaliser un BTS SIO et apprendre en entreprise.</p>
-          <p style="margin-top:6px"><strong>Long terme :</strong> Poursuivre mes études via une liscence puis un master pour enfin integrer le monde du travail.</p>
+          <p style="margin-top:6px"><strong>Long terme :</strong> Poursuivre mes études via une licence puis un master pour enfin intégrer le monde du travail.</p>
         </section>
       </div>
 
-      <!-- Colonne droite (résumé rapide) -->
+      <!-- Colonne droite -->
       <aside>
         <section class="card" id="competences">
           <h3>Compétences</h3>
@@ -105,7 +109,7 @@
           <h3>Logiciel / Bureautique</h3>
           <div class="skills" style="margin-bottom:10px">
             <span class="skill">Word</span>
-            <span class="skill">Powerpoint</span>
+            <span class="skill">PowerPoint</span>
             <span class="skill">Canva</span>
             <span class="skill">Photoshop</span>
             <span class="skill">Excel</span>
@@ -121,7 +125,7 @@
 
         <section class="card">
           <h3>Atouts</h3>
-                    <div class="skills" style="margin-bottom:10px">
+          <div class="skills" style="margin-bottom:10px">
             <span class="skill">Souriant</span>
             <span class="skill">Motivé</span>
             <span class="skill">Calme</span>
@@ -131,11 +135,18 @@
             <span class="skill">Curieux</span>
             <span class="skill">Ponctuel</span>
             <span class="skill">Polyvalent</span>
-
           </div>
-          <p style="font-size:13px;color:var(--muted)"><!-- ajt un ptit texte stv--></p>
+          <p style="font-size:13px;color:var(--muted)"><!-- ajt un ptit texte stp--></p>
         </section>
 
+        <section class="card">
+          <h3>Langues</h3>
+          <div class="skills" style="margin-bottom:10px"></div>
+            <span class="skill">Anglais</span>
+            <span class="skill">Espagnol</span>
+            <span class="skill">Arabe</span>
+          <div class="skills" style="margin-bottom:10px"></div>
+        </section>
 
         <section class="card" id="contact">
           <h3>Contact</h3>
@@ -144,8 +155,7 @@
           <p style="margin-bottom:8px">
           <a href="https://github.com/elbaz-sofiane" target="_blank" style="text-decoration:none;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height:18px;vertical-align:middle;margin-right:6px;">GitHub</a></p><p style="margin-bottom:8px">
           <a href="https://www.linkedin.com/in/sofiane-elbaz-490477380" target="_blank" style="text-decoration:none;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="height:18px;vertical-align:middle;margin-right:6px;">LinkedIn</a></p>
-          <p style="margin-bottom:10px">🔗 <a href="CV.pdf" class="btn" download>Télécharger mon CV</a></p>
-
+          <p style="margin-bottom:10px">🔗 <a href="/files/CV.pdf" class="btn" download>Télécharger mon CV</a></p>
         </section>
 
       </aside>
@@ -157,15 +167,6 @@
       </div>
   </div>
 
-
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
