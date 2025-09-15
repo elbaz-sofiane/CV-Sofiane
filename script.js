@@ -121,12 +121,12 @@ const translations = {  /*tous les txt en fr et en*/
     proj1_desc: "Development of a responsive online CV with HTML, CSS, and JavaScript (dark mode + multilingual).",
     proj2_title: "Movie API website - HTML/CSS/JS - Personal project",
     proj2_desc: "Creation of a website that uses an API to automatically collect information about a movie.",
-    proj3_title: "Discord API Movie BOT - PYTHON - Personal project",
-    proj3_desc: "I created a Discord bot in Python that uses an API to provide information about movies.",
-    proj4_title: "Blackjack game - C - School project",
-    proj4_desc: "I designed a Blackjack game in C, integrating features such as bet management, dice distribution, and game rules. ",
-    proj5_title: "Order-taking application - PYTHON - Personal project",
-    proj5_desc: "Development of a Python application for taking orders in a restaurant.",
+    proj4_title: "Discord API Movie BOT - PYTHON - Personal project",
+    proj4_desc: "I created a Discord bot in Python that uses an API to provide information about movies.",
+    proj5_title: "Blackjack game - C - School project",
+    proj5_desc: "I designed a Blackjack game in C, integrating features such as bet management, dice distribution, and game rules. ",
+    proj3_title: "Order-taking application - PYTHON - Personal project",
+    proj3_desc: "Development of a Python application for taking orders in a restaurant.",
     btn_details: "🔍 Details",
     btn_visit: "🌍 Visit",
     footer2: "Website created by myself."
@@ -191,12 +191,12 @@ const translations = {  /*tous les txt en fr et en*/
     proj1_desc: " Développement d’un CV en ligne responsive avec HTML, CSS et JavaScript (dark mode + multilingue).",
     proj2_title: "Site API Film - HTML/CSS/JS - Projet personnel",
     proj2_desc: "Création d’un site qui utilise une API pour récolter automatiquement des informations sur un film.",
-    proj3_title: "BOT Discord API Film - PYTHON - Projet personnel",
-    proj3_desc: "Création d’un site qui utilise une API pour récolter automatiquement des informations sur un film.",
-    proj4_title: "Jeu de black jack - C - Projet scolaire",
-    proj4_desc: "j'ai concu un jeu de Black Jack en C, intégrant des fonctionnalités telles que la gestion des mises, la distribution des dés, et les règles du jeu.",
-    proj5_title: "Application de prise de commande - PYTHON - Projet personnel",
-    proj5_desc: "Développement d’une application en Python pour effectuer une prise de commande dans un restaurant.",
+    proj4_title: "BOT Discord API Film - PYTHON - Projet personnel",
+    proj4_desc: "Création d’un site qui utilise une API pour récolter automatiquement des informations sur un film.",
+    proj5_title: "Jeu de black jack - C - Projet scolaire",
+    proj5_desc: "j'ai concu un jeu de Black Jack en C, intégrant des fonctionnalités telles que la gestion des mises, la distribution des dés, et les règles du jeu.",
+    proj3_title: "Application de prise de commande - PYTHON - Projet personnel",
+    proj3_desc: "Développement d’une application en Python pour effectuer une prise de commande dans un restaurant.",
     btn_details: "🔍 Détails",
     btn_visit: "🌍 Visiter",
     footer2: "Site réalisé par mes soins."
@@ -293,4 +293,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof window.updateReadMore === 'function') window.updateReadMore(currentLang); 
   updateTexts();
 });
+
 
