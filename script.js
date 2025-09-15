@@ -192,7 +192,7 @@ const translations = {  /*tous les txt en fr et en*/
     proj2_title: "Site API Film - HTML/CSS/JS - Projet personnel",
     proj2_desc: "Création d’un site qui utilise une API pour récolter automatiquement des informations sur un film.",
     proj4_title: "BOT Discord API Film - PYTHON - Projet personnel",
-    proj4_desc: "Création d’un site qui utilise une API pour récolter automatiquement des informations sur un film.",
+    proj4_desc: "j'ai créé un bot Discord en Python qui utilise une API pour fournir des informations sur les films.",
     proj5_title: "Jeu de black jack - C - Projet scolaire",
     proj5_desc: "j'ai concu un jeu de Black Jack en C, intégrant des fonctionnalités telles que la gestion des mises, la distribution des dés, et les règles du jeu.",
     proj3_title: "Application de prise de commande - PYTHON - Projet personnel",
@@ -293,5 +293,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof window.updateReadMore === 'function') window.updateReadMore(currentLang); 
   updateTexts();
 });
+
 
 
