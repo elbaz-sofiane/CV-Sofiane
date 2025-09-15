@@ -2,33 +2,85 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>🚧</title>
+  <title>🚧 Page en cours</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    :root {
+      --bg: #f7f7fb;
+      --card: #ffffff;
+      --accent: #0b74da;
+      --muted: #666;
+    }
+
     body {
-      font-family: sans-serif;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      background: #f7f7fb;
+      background: var(--bg);
       color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(15, 20, 30, 0.08);
+      max-width: 500px;
+      width: 100%;
       text-align: center;
     }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 6px 0;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
     a {
-      color: #0b74da;
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
       font-weight: bold;
       text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    a:hover {
+      background: #28a745;
+      transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .card {
+        padding: 18px;
+      }
     }
   </style>
 </head>
 <body>
-  <div>
+  <div class="card">
     <h1>🚧 Ça arrive bientôt !</h1>
-
-    <p>Désolé, la page demandée est en cours de developpement.</p> <br>
-        <p>It's coming soon!</p>
-    <p>Sorry, the requested page is currently under development.   </p>
-    <p><a href="/index.html">⬅ Retour au CV | Back to CV</a></p>
+    <p>Désolé, la page demandée est en cours de développement.</p>
+    <br>
+    <p>⚡ It's coming soon!</p>
+    <p>Sorry, the requested page is currently under development.</p>
+    <a href="CV-Sofiane">⬅ Retour au CV | Back to CV</a>
   </div>
 </body>
 </html>
