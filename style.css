@@ -29,12 +29,15 @@ body {
 }
 
 /* Header */
+.header {
+  margin-bottom: 14px;
+}
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin-bottom: 14px;
+
 }
 
 .header-titles h1 {
@@ -357,3 +360,32 @@ body,
 
 
 
+
+.btn-port {
+  display: inline-flex;         /* image + texte sur une ligne */
+  align-items: center;          /* centre verticalement l’image et le texte */
+  justify-content: center;      /* centre horizontalement le contenu */
+  gap: 8px;                     /* espace entre l’icône et le texte */
+  
+  /* ---- Taille du bouton ---- */
+  width: 250px;                 /* bouton plus long (ajuste selon besoin) */
+  height: 50px;
+  padding: 12px 20px;           /* espace interne haut/bas et gauche/droite */
+
+  background-color: #24292e;    /* couleur de fond */
+  color: #fff;                  /* couleur du texte */
+  font-weight: bold;            /* texte en gras */
+  text-decoration: none;        /* enlève le soulignage */
+  border: none;                 /* pas de bordure */
+  border-radius: 10px;          /* coins arrondis */
+  cursor: pointer;              /* curseur main */
+  transition: background 0.3s;  /* animation douce sur hover */
+}
+
+.btn-port:hover {
+  background-color: #000000;    /* couleur au survol */
+}
+
+.icoport {
+  width: 30px;                  /* taille de l’icône */
+}
