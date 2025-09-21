@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       typewriter.textContent += text.charAt(i++);
       setTimeout(type, 120);  /*si tous le texte n'est pas encore crit, on rappelle la fonction et 120 c le tmp entre 2lettre*/
     } else {
+      
       typewriter.style.borderRight = "none"; /*quand le texte est fini, on enlve le curseur*/
       typewriter.style.transform = "scale(1.1)"; /*agrandir le texte pr l'effet clique*/
       setTimeout(() => {
@@ -293,5 +294,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (typeof window.updateReadMore === 'function') window.updateReadMore(currentLang); 
   updateTexts();
 });
-
 
