@@ -142,3 +142,17 @@ body.dark-theme #contact a:hover{ color:#4ea8ff; }
 .project-btn.github:hover img.icon-github {
   transform: scale(1.1);
 }
+
+/*Map IDF*/
+.map-container {
+  width: 100%;
+  height: 200px;   /* ajuste la hauteur si tu veux plus grand */
+  border-radius: 12px;
+  overflow: hidden; /* coins arrondis */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+}
