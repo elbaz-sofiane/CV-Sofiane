@@ -14,7 +14,7 @@ Ce projet me permet de présenter mon parcours, mes compétences et mes projets 
 - 💻 **Section Projets** avec boutons vers la **démo en ligne** et le **GitHub**  
 - 📱 **Responsive** : design adapté aux PC, tablettes et mobiles  
 - 🗂️ **Réorganisation intelligente** sur mobile (Projets avant Contact)  
-- 📩 **Section Contact** avec liens vers **GitHub** et **LinkedIn**  
+- 📩 **Section Contact** avec formulaire et liens vers **GitHub** et **LinkedIn**  
 - ⚡ **Transitions fluides** entre les thèmes et langues  
 
 ---
